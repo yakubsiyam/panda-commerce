@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Panda Commerce</title>
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light mt-4">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#">Product</a>
+                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!-- slider section -->
+        <div id="carouselExampleControls" class="carousel slide container mt-5" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active rounded-3" style="background-color: #FEEAE9">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-7 col-md-6 col-12 ps-5">
+                  <h1 class="fs-1 fw-bold mb-3" style="color: #1F1F1F">Mi LED TV 4A PRO 32</h1>
+                  <p class="fs-6 mb-3">The Xiaomi MI 4A Horizon Edition 32" Smart TV is an impressive TV on its own as it provides users with all the latest technologies at one place.</p>
+                  <p class="fs-3 mb-3" style="color: #FF136F;">$1289</p>
+                  <div class="btn text-light fw-light" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ms-1"></i></div>
+                </div>
+                <div class="col-lg-5">
+                  <img src="./images/banner-images/tv.png" class="img-fluid py-3" style="padding-left: 100px;" alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item rounded-3" style="background-color: #FEEAE9">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-7 ps-5">
+                  <h1 class="fs-1 fw-bold mb-3" style="color: #1F1F1F">Cool Dude Headphone</h1>
+                  <p class="fs-6 mb-3">Headphone is as a small pair of loudspeakers that convert an electrical signal to a corresponding sound worn on or around the head using a band.</p>
+                  <p class="fs-3 mb-3" style="color: #FF136F;">$1099</p>
+                  <div class="btn text-light fw-light" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ms-1"></i></div>
+                </div>
+                <div class="col-lg-5">
+                  <img src="./images/banner-images/headphone.png" class="img-fluid py-3" style="padding-left: 100px;" alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item rounded-3" style="background-color: #FEEAE9">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-7 ps-5">
+                  <h1 class="fs-1 fw-bold mb-3" style="color: #1F1F1F">X-Box for your living room</h1>
+                  <p class="fs-6 mb-3">Experience the new generation of games and entertainment with Xbox. Explore consoles, new and old Xbox games and accessories to start or add.</p>
+                  <p class="fs-3 mb-3" style="color: #FF136F;">$999</p>
+                  <div class="btn text-light fw-light" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ms-1"></i></div>
+                </div>
+                <div class="col-lg-5">
+                  <img src="./images/banner-images/xbox.png" class="img-fluid py-3" style="padding-left: 100px;" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- categories section -->
+
+        <section class="container my-5">
+          <h3 style="font-weight: 600; color: #1F1F1F;">Categories</h3>
+          <div class="row gx-5 mt-4">
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-between align-items-center rounded-3 px-4 py-2" style="background-image: linear-gradient(152.07deg, #FF9C35, #FFD019);">
+                <h3 class="fs-2 text-light">Watch</h3>
+                <img src="./images/categories/watch.png" width="120" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-between align-items-center rounded-3 px-4 py-2" style="background-image: linear-gradient(180deg, #FF589B, #FF136F);" >
+                <h3 class="fs-2 text-light">Bag</h3>
+                <img src="./images/categories/bag.png" width="120" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="d-flex justify-content-between align-items-center rounded-3 px-4 py-2" style="background-image: linear-gradient(170.41deg, #4289FF, #3F07F8);">
+                <h3 class="fs-2 text-light">Shoes</h3>
+                <img src="./images/categories/shoes.png" width="120" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- shoes section -->
+
+        <section style="background-color: #F4F4F4;">
+          <div class="container py-5">
+            <h3 style="font-weight: 600; color: #1F1F1F;">Shoes</h3>
+            <div class="row gx-5 mt-4">
+              <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center rounded-3" style="background-color: #FFFFFF">
+                  <img src="./images/shoes/shoe-1.png" class="img-fluid" alt="">
+                  <h3 class="fs-4 fw-bold my-3" style="color: #1F1F1F;">Reebok Dart Men’s</h3>
+                  <p class="fw-normal text-center" style="color: #4E4E4E;">Get laced up for training, sport and lifestyle with the latest design</p>
+                  <p class="fs-4 fw-bold">$1289</p>
+                  <div class="btn text-light fw-light mb-4" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ps-1"></i></div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center rounded-3" style="background-color: #FFFFFF">
+                  <img src="./images/shoes/shoe-2.png" class="img-fluid" alt="">
+                  <h3 class="fs-4 fw-bold my-3" style="color: #1F1F1F;">Reebok Pump</h3>
+                  <p class="fw-normal text-center" style="color: #4E4E4E;">Get laced up for training, sport and lifestyle with the latest design</p>
+                  <p class="fs-4 fw-bold">$799</p>
+                  <div class="btn text-light fw-light mb-4" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ps-1"></i></div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center rounded-3" style="background-color: #FFFFFF">
+                  <img src="./images/shoes/shoe-3.png" class="img-fluid" alt="">
+                  <h3 class="fs-4 fw-bold my-3" style="color: #1F1F1F;">Reebok All Terrain</h3>
+                  <p class="fw-normal text-center" style="color: #4E4E4E;">Get laced up for training, sport and lifestyle with the latest design</p>
+                  <p class="fs-4 fw-bold">$699</p>
+                  <div class="btn text-light fw-light mb-4" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ps-1"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- bags section -->
+        <section style="background-color: #F4F4F4;">
+          <div class="container py-5">
+            <h3 style="font-weight: 600; color: #1F1F1F;">Backpack</h3>
+            <div class="row gx-5 mt-4">
+              <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center rounded-3 p-4" style="background-color: #FFFFFF">
+                  <img src="./images/bags/bag-1.png" class="img-fluid" alt="">
+                  <h3 class="fs-4 fw-bold my-3" style="color: #1F1F1F;">Ison Backpack</h3>
+                  <p class="fw-normal text-center" style="color: #4E4E4E;">Our gear savvy experts bought and tested the top ten backpacks available in 2020 and put them through a rigorous side by side comparison.</p>
+                  <p class="fs-4 fw-bold">$1289</p>
+                  <div class="btn text-light fw-light" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ps-1"></i></div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center rounded-3 p-4" style="background-color: #FFFFFF">
+                  <img src="./images/bags/bag-2.png" class="img-fluid" alt="">
+                  <h3 class="fs-4 fw-bold my-3" style="color: #1F1F1F;">Biaowang Backpack</h3>
+                  <p class="fw-normal text-center" style="color: #4E4E4E;">Our gear savvy experts bought and tested the top ten backpacks available in 2020 and put them through a rigorous side by side comparison.</p>
+                  <p class="fs-4 fw-bold">$799</p>
+                  <div class="btn text-light fw-light" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ps-1"></i></div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex flex-column align-items-center rounded-3 p-4" style="background-color: #FFFFFF">
+                  <img src="./images/bags/bag-3.png" class="img-fluid" alt="">
+                  <h3 class="fs-4 fw-bold my-3" style="color: #1F1F1F;">Dxyizu WS54 Smart</h3>
+                  <p class="fw-normal text-center" style="color: #4E4E4E;">Our gear savvy experts bought and tested the top ten backpacks available in 2020 and put them through a rigorous side by side comparison.</p>
+                  <p class="fs-4 fw-bold">$699</p>
+                  <div class="btn text-light fw-light" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Buy Now <i class="fas fa-arrow-right ps-1"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer class="container my-5" style="background-color: #FFF2F1; padding: 146px 0px;">
+      <h3 class="text-center fs-3 fw-bold">LET'S STAY IN TOUCH</h3>
+      <p class="text-center" style="color: #707070;">Get updates on sales specials and more</p>
+      <div class="d-flex justify-content-center">
+        <input class="col-lg-4 ps-3 rounded" type="email" class="form-control" placeholder="Enter your Email" aria-label="email">
+        <div class="btn text-light fw-light" style="background-image: linear-gradient(180deg, #FF589B, #FF136F)">Send</div>
+      </div>
+    </footer>
+
+    <!-- js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
